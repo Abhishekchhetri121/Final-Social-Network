@@ -1,0 +1,387 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+    
+    
+}
+body
+{
+    background-color: #d0d8e4;
+    /*overflow-x: hidden;*/
+}
+
+
+.blue_bar
+{
+    height: 50px;
+    background-color: RGB(0,0,125);
+    color: #d9dfeb;
+    padding-top: 2px;
+}
+.stl
+{
+    width: 800px;
+    margin: auto;
+    font-size: 30px;
+    
+}
+#search
+{
+    width: 400px;
+    border-radius: 5px;
+    height: 25px;
+    border:none;
+    padding: 4px;
+    
+    font-size: 14px;
+    background-image: url("../img/search.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+#textboxes
+{
+    width: 97.5%;
+    border-radius: 5px;
+    height: 20px;
+    border:solid thin gray;
+    padding: 4px;
+    max-width: 390px;
+    font-size: 14px;
+    margin: 10px;
+    
+
+
+}
+
+.stl > img
+{
+    margin-top: 2px;
+    width: 40px;
+    float: right;
+    border-radius: 50%;
+    bottom: 2px;
+}
+
+.stl > a 
+{
+    color: red;
+    text-decoration: none;
+    list-style: none;
+}
+
+#logout > a
+{
+    font-size: 20px;
+color: white;
+text-decoration: double;
+float: right;
+margin-top: 10;
+    
+#logout > img 
+{
+    background-color: RGB(255,0,0);
+}
+
+}
+
+
+#container
+{
+    
+    width: 800px;
+    margin: auto;
+    
+    min-height: 400px;
+
+    /*position: relative;
+    top:-210px;
+    position: relative;
+    left: 4%;*/
+    
+}
+
+#container > #imgh
+{
+    background-color: rgb(255,255,266);
+    text-align: center;
+    color: #405d9b;
+   
+}
+
+#imgh > img
+{
+    
+    height: 300px;
+    width: 100%;
+}
+
+#imgh > #pics
+{
+    width: 100px;
+    margin-top: -85px;
+    border-radius: 50%;
+    height: 80px;
+    border:5px solid purple;
+}
+#menus
+{
+    width: 100px;
+    display: inline-block;
+    margin: 2px;
+}
+#nn
+{
+    font-size: 20px;
+}
+
+#mid-panel
+{
+    display: flex;
+}
+
+#mid-panel > #d1
+{
+    
+    min-height: 400px;
+    flex:1;
+}
+
+#mid-panel > #d2
+{
+    
+    min-height: 400px;
+    flex: 2.5;
+}
+#fbar
+{
+    background-color: white;
+    min-height: 400px;
+    margin-top: 15px;
+    color: #aaa;
+    padding: 8px;
+}
+
+#fimg
+{
+    width: 80px;
+    float: left;
+    margin: 8px;
+}
+
+#friends
+{
+    clear: both;
+    font-size:12px ;
+    font-weight: bold;
+    color: royalblue;
+}
+
+#d2
+{
+    min-height: 400px;
+    flex:2.5;
+    padding: 20px;
+    padding-right: 0px;
+}
+#id2
+{
+    
+    border:1px solid;
+    padding: 10px;
+    background-color: white;
+    
+    
+}
+
+
+textarea
+{
+    height: 80px;
+    width: 100%;
+    border: none;
+    font-family: tahoma;
+    font-size: 14px;
+    
+}
+#post_btn
+{
+    background-color: rgb(0,200,0);
+    float: right;
+    border: none;
+    color: white;
+    padding: 4px;
+    font-size: 14px;
+    border-radius: 8px;
+    width: auto;
+    cursor: pointer;
+
+}
+
+#post_bar
+{
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+/*yooooooo*/
+#posts
+{
+    padding: 4px;
+    font-size: 13px;
+    display: flex;
+    margin-bottom: 20px;
+}
+#posts > .txt
+{
+    margin-right: 5px;
+}
+
+#img_post
+{
+    width: 75px;
+    border-radius: 50%;
+}
+#posts .poster
+{
+    color: rgb(225, 65, 102);
+    font-weight: bold;
+}
+
+span
+{
+    color: #999;
+}
+
+#imgh > a
+{
+    text-decoration: none;
+}
+
+#old_pic
+{
+    text-align: center;
+    
+}
+
+
+#yooo
+{
+    border: 5px solid RGB(0,255,0);
+    WIDTH: 300PX;
+    height: 410px;
+    position: relative;
+    left: 1%;
+    border-radius: 25px;
+    margin-top: 10px;
+    padding: 4px;
+}
+
+
+
+#notifications
+{
+    height: 40px;
+    background-color: #eee;
+    color:#666;
+    border:1px solid #aaa;
+    margin: 6px;
+    
+}
+
+/*notification span tag*/
+#links
+{
+    display:inline-block;
+    position:relative;
+}
+#links  a 
+{
+    width:25px;
+    float:right;
+     margin-top:5px;color:white;
+     background-color: RGB(0,0,125); 
+     height:30px
+}
+
+#links a>img
+{
+    width:25px;
+}
+
+#links > #red_button
+{
+    background-color:RGB(255,0,0); 
+    color:white; 
+    position:absolute;
+    width:12px;
+    font-size:12px; 
+    font-weight:100px;
+    margin-top: -2px;  
+    height:15px;
+    border-radius:50%;
+    padding-left:4px;
+}
+
+
+
+#links
+{
+    display:inline-block;
+    position:relative;
+}
+#links  a 
+{
+    width:25px;
+    float:right;
+     margin-top:5px;color:white;
+     background-color: RGB(0,0,125); 
+     height:30px
+}
+
+#links a>img
+{
+    width:25px;
+}
+
+
+#linkss > #msg_button
+{
+    background-color:RGB(255,0,0); 
+    color:white; 
+    position:relative;
+    top:-4px;
+    width:12px;
+    font-size:12px; 
+    font-weight:100px;
+    margin-top: -2px;  
+    height:15px;
+    border-radius:50%;
+    padding-left:4px;
+}
+
+#links > #red_button
+{
+    background-color:RGB(255,0,0); 
+    color:white; 
+    position:absolute;
+    width:12px;
+    font-size:12px; 
+    font-weight:100px;
+    margin-top: -2px;  
+    height:15px;
+    border-radius:50%;
+    padding-left:4px;
+}

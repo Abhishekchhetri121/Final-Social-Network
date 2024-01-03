@@ -1,0 +1,121 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: tahoma;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+}
+
+nav
+{
+    
+    width: 100%;
+    background-color: royalblue;   
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+nav > .bar
+{
+    height: 70px;
+    color: white;
+    font-size: 26px;
+    display: flex;
+    
+}
+
+nav > .bar > .imgs
+{
+
+    height: 70px;
+    width: 80px;
+    position: relative;
+    left:1px;
+    border-radius: 2%;
+    
+
+}
+
+nav > .bar > .imgs > img
+{
+
+    height: 70px;
+    width: 78px;
+}
+
+
+
+
+
+nav > .sign
+{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: RGB(0,255,0);
+    color: white;
+    
+}
+#outer
+{
+    height: 100%;
+    /*background-color: RGB(0,0,120);*/
+
+    background-image: URL("../img/wre.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav > .signs
+{
+    position: relative;
+    left: 20%;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: RGB(0,255,0);
+    color: white;
+    
+}
+.main
+{
+    
+ 
+    position: relative;
+    top:50px;
+    width: 800px;
+    
+
+    margin: auto;
+    background-size: cover;
+
+    padding: 10px;
+    text-align: center;
+    padding-top: 50px;
+    border-radius: 4px;
+    color: wheat;
+    
+}
+#t1
+{
+    width: 300px;
+    height: 40px;
+    border-radius: 4px;
+    border:solid 1px #ccc;
+    padding: 4px;
+    font-size: 14px;
+    
+} 
+
+#btn
+{
+    
+    width: 300px;
+    height: 40px;
+    background-color: royalblue;
+
+
+}
+

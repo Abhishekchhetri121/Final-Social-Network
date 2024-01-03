@@ -1,0 +1,174 @@
+#containers
+{
+    display: flex;
+}
+.left_wing
+{
+    overflow-x: hidden;
+    height: 675px;
+    width:20%;
+    border-radius: 5px;
+    position: relative;
+    top:2px;
+    background-color: RGB(0,0,125);
+    border:5px solid red;
+}
+
+.left_wing > a
+{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 40px;
+    
+    top:40px;
+    left:40px;
+
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.tt > table
+{
+        width: 1110px;
+
+}
+
+table,tr,th,td
+{
+    border: 2px solid black;
+    width: 40px;
+    
+
+
+}
+th
+{
+    width:700px;
+    text-align: center;
+}
+td,th
+{
+    width:800px;
+    background-color: RGB(0,0,125);
+    color: white;
+    
+}
+
+td>a
+{
+    background-color: RGB(0,0,125);
+    color: white;
+}
+
+
+tr
+{
+
+    width:600px;
+    text-align: center;
+
+}
+.tables
+{
+    position: relative;
+    top:10px;
+    width:400px;
+    left:50px;
+    
+}
+
+.tt 
+{
+    position: relative;
+    top:10px;
+    width:98%;
+    left:10px;
+    border: 4px solid black;
+}
+
+
+.mid-panels
+
+{
+    margin-left: 50px;
+
+
+}
+
+#post_bar
+{
+    margin-top: -100%;
+    width: 700px;
+}
+
+.mid-panels
+{
+    display: flex;
+
+    border: 4px solid red;
+
+    height:180px;
+}
+.mp
+{
+    
+    position: relative;
+    left:40px;
+}
+
+
+.count-user
+{
+    border: 5px solid black;
+    height:100px;
+    margin: 12px;
+
+    width:250px;
+    text-align: center;
+    background-color: RGB(0,125,125);
+    color:white;
+}
+
+.count-posts
+{
+    border: 5px solid black;
+    height:100px;
+    margin: 12px;
+
+    width:250px;
+    text-align: center;
+    background-color: RGB(125,125,125);
+    color:white;
+}
+.comments-count
+{
+    border: 5px solid black;
+    height:100px;
+    margin: 12px;
+    width:250px;
+    text-align: center;
+    background-color: RGB(255,225,0);
+    color:white;
+    
+}
+
+
+.likes-count
+{
+    border: 5px solid black;
+    height:100px;
+    margin: 12px;
+
+    text-align: center;
+    width:250px;
+    background-color: RGB(0,225,0);
+}
+
+
+.mp > .count 
+{
+    display: flex;
+    flex-direction: row;
+}
+

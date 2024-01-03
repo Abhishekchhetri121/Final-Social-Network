@@ -1,0 +1,35 @@
+//password hashing
+Formulas for encryption
+Eg : Hi there i want to Comment
+
+    gj srjtj k mods rl jwnklea
+
+
+a = b
+c = d
+e = f 
+
+->formula or algorithm 
+->2way encryption
+
+->1way encryption
+    eg : hello 
+         2+5+7+8+9 = 31
+
+-->> mD-5 creates 32character op
+-->> SHA-1 40 character
+
+
+
+
+
+//forget password logic
+->email
+->code
+->new_password
+
+
+
+
+// online logics
+
